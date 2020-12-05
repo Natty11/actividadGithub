@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    width: 50vh;
+    margin: auto;
+}
+
+h1{
+    padding: 20px 0px;
+    font-size: larger;
+    font-family: 'PT Sans',sans-serif;
+}
+
+h1, form{
+    text-align: center;
+}
+
+label {
+    font-size: 12pt;
+    font-family: 'sans-serif',sans-serif;
+    font-weight: bold;
+}
+
+.clave{
+    margin-bottom: 15px;
+}
+
+div input{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px #F5F5F5;
+    border-right: 1px #F5F5F5;
+    border-style: outset solid solid outset;
+    outline: none;
+}
+
+.clave input{
+    font-size: 16pt;
+}
+
+.clave label{
+    margin-right: 15px;
+}
+
+input[type=submit]{
+    font-size: 10pt;
+    width: 80px;
+    height: 25px;
+    padding: 0px;
+    border-top: 1px #F5F5F5;
+    border-left: 1px #F5F5F5;
+    border-style: solid inset inset solid;
+}
+
